@@ -34,7 +34,6 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
     Scanner klepto = new Scanner(System.in);
 
 
-    // To Do: ask for f_i value and commit
     // To Do: ask for f_c value and commit
     // To Do: ask for L value and commit
 
@@ -65,6 +64,11 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 
     System.out.println("Good, good. Now gimme a fraction of the number you just entered.");
     f_i = klepto.nextDouble();
+
+    System.out.println("Good, good. Now gimme a fraction of the number you just entered.");
+    f_c = klepto.nextDouble();
+
+    
 
 
     }
