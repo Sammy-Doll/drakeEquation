@@ -68,7 +68,8 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
     System.out.println("Good, good. Now gimme a fraction of the number you just entered.");
     f_c = klepto.nextDouble();
 
-    
+    System.out.println("All you have ta da now is gimme a number!");
+    L = klepto.nextInt();
 
 
     }
