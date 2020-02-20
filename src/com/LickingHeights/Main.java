@@ -33,11 +33,7 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 
     Scanner klepto = new Scanner(System.in);
 
-    // To Do: initialize the Scanner to take input and commit
-    // To Do:  ask for rStar variable, store the rStar variable, and commit
-    // To Do: ask for f_p variable, store the f_p variable, and commit
-    // To Do: ask for numberOfExoplanets variable, store the numberOfExoplanets variable, and commit
-    // To Do: ask for f_l variable, store f_l variables, and commit
+
     // To Do: ask for f_i value and commit
     // To Do: ask for f_c value and commit
     // To Do: ask for L value and commit
@@ -59,13 +55,16 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
     rStar = klepto.nextInt();
 
     System.out.println("Wait, dat there number's a factor o' 3? Huh. Now, gimme a fraction of the previous number.");
-    f_p = klepto.nextInt();
+    f_p = klepto.nextDouble();
 
     System.out.println("'kay. Now gimme a number less than the number you just put in.");
     numberOfExoplanets = klepto.nextInt();
 
     System.out.println("Alright. Now, gimme a fraction of the number you just input.");
-    f_l = klepto.nextInt();
+    f_l = klepto.nextDouble();
+
+    System.out.println("Good, good. Now gimme a fraction of the number you just entered.");
+    f_i = klepto.nextDouble();
 
 
     }
