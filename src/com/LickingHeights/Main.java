@@ -64,6 +64,9 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
     System.out.println("'kay. Now gimme a number less than the number you just put in.");
     numberOfExoplanets = klepto.nextInt();
 
+    System.out.println("Alright. Now, gimme a fraction of the number you just input.");
+    f_l = klepto.nextInt();
+
 
     }
 
