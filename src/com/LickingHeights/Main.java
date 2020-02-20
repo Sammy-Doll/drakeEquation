@@ -1,9 +1,12 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
 
+    drakeEquation();
 
     }
 
@@ -19,18 +22,28 @@ fc = 0.1 to 0.2 (10–20% of which will be able to communicate)
 L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,000,000 years)
  */
 
-int N;
-int rStar;
-double f_p;
-int numberOfExoplanets;
-double f_l;
-double f_i;
-double f_c;
-int L;
+    int N;
+    int rStar;
+    double f_p;
+    int numberOfExoplanets;
+    double f_l;
+    double f_i;
+    double f_c;
+    int L;
 
-N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
+    Scanner klepto = new Scanner(System.in);
 
-System.out.println("The number of extraterrestrial species \n" +
+    // To Do: initialize the Scanner to take input and commit
+    // To Do:  ask for rStar variable, store the rStar variable, and commit
+    // To Do: ask for f_p variable, store the f_p variable, and commit
+    // To Do: ask for numberOfExoplanets variable, store the numberOfExoplanets variable, and commit
+    // To Do: ask for f_l variable, store f_l variables, and commit
+    // To Do: ask for f_i value and commit
+    // To Do: ask for f_c value and commit
+    // To Do: ask for L valiue and commit
+
+        N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
+    System.out.println("The number of extraterrestrial species \n" +
         "that can communicate with us is: " + N);
 
 
