@@ -58,7 +58,8 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
     System.out.println("A ha! Okay, give me a number divisible by three.");
     rStar = klepto.nextInt();
 
-    
+    System.out.println("Wait, dat there number's a factor o' 3? Huh. Now, gimme a fraction of the previous number.");
+    f_p = klepto.nextInt();
 
 
     }
